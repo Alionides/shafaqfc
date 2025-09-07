@@ -1,0 +1,7 @@
+2025-08-24 21:59:58	admin	http://localhost/processwire/processwire/page/edit/?id=1037&InputfieldFileAjax=1	/processwire/site/assets/files/1037/fifa.0x260.webp - fifa.0x260.webp - not a supported image type
+2025-08-24 22:00:02	admin	http://localhost/processwire/processwire/page/edit/?id=1&field=sponsors&repeater_edit=1037	/processwire/site/assets/files/1037/fifa.0x260.webp - fifa.0x260.webp - not a supported image type
+2025-08-24 22:00:16	admin	http://localhost/processwire/processwire/page/edit/?id=1038&InputfieldFileAjax=1	/processwire/site/assets/files/1038/uefa.0x260.webp - uefa.0x260.webp - not a supported image type
+2025-08-25 10:40:38	admin	http://localhost/processwire/processwire/page/edit/?id=1&field=sponsors&repeater_edit=1037	/processwire/site/assets/files/1037/fifa.0x260.webp - fifa.0x260.webp - not a supported image type
+2025-08-25 10:40:41	admin	http://localhost/processwire/processwire/page/edit/?id=1&field=sponsors&repeater_edit=1038	/processwire/site/assets/files/1038/uefa.0x260.webp - uefa.0x260.webp - not a supported image type
+2025-08-25 10:43:10	admin	http://localhost/processwire/processwire/page/edit/?id=1039&InputfieldFileAjax=1	/processwire/site/assets/files/1039/affa.0x260.webp - affa.0x260.webp - not a supported image type
+2025-08-25 10:43:25	admin	http://localhost/processwire/processwire/page/edit/?id=1040&InputfieldFileAjax=1	/processwire/site/assets/files/1040/pfl.0x260.webp - pfl.0x260.webp - not a supported image type

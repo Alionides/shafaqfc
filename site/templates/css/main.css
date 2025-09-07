@@ -1,0 +1,59 @@
+.navlink:hover {
+    text-decoration-color: rgb(255, 255, 255);
+}
+.navlink:hover {
+    text-underline-offset: 10px;
+}
+.navlink {
+    font-size: 16px;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0);
+    text-underline-offset: 6px;
+    transition: 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.glass { background: rgba(255,255,255,.08); backdrop-filter: blur(10px); }
+
+
+/* Owl carousel */
+
+.owl-theme .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* centers horizontally */
+    display: flex;
+    gap: 12px; /* space between numbers */
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    background: #00674e;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #f7bd02; /* your Shafaq yellow */
+    transform: scale(1.2);
+}
+
+/* Position arrows inside bottom-right */
+.owl-theme .owl-nav {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+.owl-theme .owl-nav button {
+    background: rgba(0,0,0,0.5) !important;
+    color: #fff !important;
+    margin: 0 3px;
+    padding: 5px 12px !important;
+    border-radius: 9999px;
+    transition: background 0.3s ease;
+}
+.owl-theme .owl-nav button:hover {
+    background: #f7bd02 !important;
+    color: #000 !important;
+}

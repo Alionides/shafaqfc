@@ -1,0 +1,14 @@
+2025-08-21 08:56:22	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-08-24 07:50:55	guest	http://localhost/processwire/processwire/login/	Error: Failed login for 'admin' - Invalid password
+2025-08-24 07:50:58	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-08-24 13:29:47	guest	http://localhost/processwire/processwire/login/	Error: Failed login for 'admin' - Invalid password
+2025-08-24 13:29:51	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-08-26 20:58:08	guest	http://localhost/processwire/processwire/login/	Error: Failed login for 'admin' - Invalid password
+2025-08-26 20:58:11	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-08-27 12:43:26	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-08-27 21:08:27	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-08-29 19:21:07	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-08-30 10:38:14	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-09-02 22:38:54	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-09-03 12:11:38	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-09-05 15:13:01	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'

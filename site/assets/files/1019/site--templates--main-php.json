@@ -1,0 +1,12 @@
+{
+    "file": "site\/templates\/main.php",
+    "textdomain": "site--templates--main-php",
+    "translations": {
+        "d7368525ca2eb321a67aaf6c267eb828": {
+            "text": "\u041d\u043e\u0432\u043e\u0441\u0442\u0438"
+        },
+        "c73a9b326cef0c1e0627f29388c171dd": {
+            "text": "\u0412\u0441\u0435"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+2025-08-21 08:55:52	?	?	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:55:53	guest	http://localhost/processwire/http404/	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:55:53	guest	http://localhost/processwire/http404/	Installed module 'ProcessRecentPages'
+2025-08-21 08:55:53	guest	http://localhost/processwire/http404/	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:55:53	guest	http://localhost/processwire/http404/	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:55:53	guest	http://localhost/processwire/http404/	Installed module 'AdminThemeUikit'
+2025-08-21 08:55:54	guest	http://localhost/processwire/http404/	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:56:05	guest	http://localhost/processwire/http404/	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:56:05	guest	http://localhost/processwire/http404/	Installed module 'ProcessLogger'
+2025-08-21 08:56:05	guest	http://localhost/processwire/http404/	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:56:05	guest	http://localhost/processwire/http404/	Installed module 'InputfieldIcon'
+2025-08-21 08:56:05	guest	http://localhost/processwire/http404/	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:56:05	guest	http://localhost/processwire/http404/	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:56:12	?	?	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:56:23	?	?	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:56:23	?	?	Found 2 module(s) missing file: FieldtypeNumber => C:/laragon/www/processwire/site/modules/FieldtypeNumber/FieldtypeNumber.module, ProcessPage => C:/laragon/www/processwire/site/modules/ProcessPage/ProcessPage.module
+2025-08-21 08:57:14	admin	http://localhost/processwire/processwire/module/	Installed module 'ProcessLanguage'
+2025-08-21 08:57:15	admin	http://localhost/processwire/processwire/module/	Installed module 'ProcessLanguageTranslator'
+2025-08-21 08:57:15	admin	http://localhost/processwire/processwire/module/	Installed module 'InputfieldPageAutocomplete'
+2025-08-21 08:57:16	admin	http://localhost/processwire/processwire/module/	Installed module 'InputfieldTextTags'
+2025-08-21 08:57:16	admin	http://localhost/processwire/processwire/module/	Installed module 'LanguageSupport'
+2025-08-21 08:57:57	admin	http://localhost/processwire/processwire/module/	Installed module 'FieldtypeTextLanguage'
+2025-08-21 08:57:57	admin	http://localhost/processwire/processwire/module/	Installed module 'FieldtypePageTitleLanguage'
+2025-08-21 08:57:57	admin	http://localhost/processwire/processwire/module/	Installed module 'FieldtypeTextareaLanguage'
+2025-08-21 08:57:57	admin	http://localhost/processwire/processwire/module/	Installed module 'LanguageSupportFields'
+2025-08-21 08:58:06	admin	http://localhost/processwire/processwire/module/	Installed module 'LanguageSupportPageNames'
+2025-08-21 08:58:17	admin	http://localhost/processwire/processwire/module/	Installed module 'LanguageTabs'
+2025-08-24 14:30:13	admin	http://localhost/processwire/processwire/setup/field/import/	Installed module 'InputfieldRepeater'
+2025-08-24 14:30:13	admin	http://localhost/processwire/processwire/setup/field/import/	Installed module 'FieldtypeRepeater'
+2025-08-24 14:30:14	admin	http://localhost/processwire/processwire/setup/field/import/	Installed module 'InputfieldToggle'
+2025-08-24 20:49:08	admin	http://localhost/processwire/processwire/module/	Deleted module 'Helloworld'
