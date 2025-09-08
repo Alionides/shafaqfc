@@ -1,7 +1,7 @@
 <?php namespace ProcessWire;
 $seo_or_page_title = ($page->seo_title == '') ? $page->title : $page->seo_title;
 $title = $seo_or_page_title.' | Shafaq FC';
-$share_image = 'https://' . $_SERVER['SERVER_NAME'] . '/site/templates/img/gl-share.jpeg';
+$share_image = 'https://' . $_SERVER['SERVER_NAME'] . '/site/templates/images/logo.png';
 $full_url = 'https://' . $_SERVER['SERVER_NAME'] . $page->url;
 $home = $pages->get('/');
 ?>
@@ -100,8 +100,7 @@ $home = $pages->get('/');
         </div>
         <nav class="hidden md:flex items-center gap-6 text-sm">
             <a class="navlink hover:text-shafaq-yellow" href="<?= $home->url ?>"><?= $home->title ?></a>
-            <?php
-            foreach ($home->children as $child){ ?>
+            <?php foreach ($home->children as $child){ ?>
                 <a class="navlink hover:text-shafaq-yellow" href="<?= $child->url ?>"><?= $child->title ?></a>
             <?php } ?>
         </nav>

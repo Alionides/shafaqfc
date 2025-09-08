@@ -133,26 +133,9 @@ $newsPage = $pages->get("template=news");
 </section>
 
 <!-- Gallery -->
-<!--<section id="gallery" class="bg-neutral-900/60 border-y border-white/10">-->
-<!--    <div class="max-w-7xl mx-auto px-4 py-16">-->
-<!--        <h2 class="text-3xl sm:text-4xl font-extrabold mb-8">Gallery</h2>-->
-<!--        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">-->
-<!--            <img class="rounded-xl object-cover aspect-square ring-1 ring-white/10" src="images/about.png" alt="Jersey" />-->
-<!--            <div class="rounded-xl aspect-square bg-pitch-gradient ring-1 ring-white/10"></div>-->
-<!--            <div class="rounded-xl aspect-square bg-pitch-gradient ring-1 ring-white/10"></div>-->
-<!--            <div class="rounded-xl aspect-square bg-pitch-gradient ring-1 ring-white/10"></div>-->
-<!--            <div class="rounded-xl aspect-square bg-pitch-gradient ring-1 ring-white/10"></div>-->
-<!--            <div class="rounded-xl aspect-square bg-pitch-gradient ring-1 ring-white/10"></div>-->
-<!--            <div class="rounded-xl aspect-square bg-pitch-gradient ring-1 ring-white/10"></div>-->
-<!--            <div class="rounded-xl aspect-square bg-pitch-gradient ring-1 ring-white/10"></div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<!-- Gallery -->
 <section id="gallery" class="bg-neutral-900/60 border-y border-white/10">
     <div class="max-w-7xl mx-auto px-4 py-16">
-        <h2 class="text-3xl sm:text-4xl font-extrabold mb-8">Gallery</h2>
+        <h2 class="text-3xl sm:text-4xl font-extrabold mb-8"><?= _x('Gallery','-') ?></h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <!-- Example image -->
             <?php foreach ($page->images as $galleryItem){ ?>
@@ -166,39 +149,26 @@ $newsPage = $pages->get("template=news");
 </section>
 
 <!-- Club info / CTA -->
+<?php
+$aboutPage = $pages->get("template=about");
+?>
 <section id="club" class="max-w-7xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-10 items-center">
     <div class="order-2 lg:order-1">
-        <h2 class="text-3xl sm:text-4xl font-extrabold">About the Club</h2>
-        <p class="text-white/80 mt-4">Founded at dawn and named after the first light, Shafaq FC plays an attacking brand of football. Our crest blends a rising sun, a football, and waves — a nod to energy and flow. Join us on matchdays at Shafaq Arena and be part of the sunrise.</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold"><?= $aboutPage->headline ?></h2>
+        <p class="text-white/80 mt-4"><?= $aboutPage->headline_text ?></p>
         <div class="mt-6 flex gap-3">
-            <a href="#tickets" id="tickets" class="px-5 py-3 rounded-xl bg-shafaq-yellow text-neutral-900 font-semibold shadow-glow">Get Season Tickets</a>
-            <a href="#shop" class="px-5 py-3 rounded-xl border border-white/20">Visit the Shop</a>
+            <a href="<?= $aboutPage->url ?>" id="tickets" class="px-5 py-3 rounded-xl bg-shafaq-yellow text-neutral-900 font-semibold shadow-glow"><?= $aboutPage->title ?></a>
         </div>
     </div>
     <div class="order-1 lg:order-2">
         <div class="rounded-3xl overflow-hidden ring-1 ring-white/10 shadow-glow">
-            <div class="bg-pitch-gradient aspect-[16/10]"></div>
+            <div class="bg-pitch-gradient aspect-[16/10]">
+                <img src="<?= $aboutPage->image->url ?>"/>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Shop highlight -->
-<section id="shop" class="relative overflow-hidden">
-    <div class="absolute inset-0 bg-pitch-gradient opacity-70"></div>
-    <div class="relative max-w-7xl mx-auto px-4 py-16 sm:py-20 grid md:grid-cols-2 gap-10 items-center">
-        <div>
-            <h2 class="text-3xl sm:text-4xl font-extrabold">Official Store</h2>
-            <p class="text-white/80 mt-4">Home, Away & Training wear. Personalize your kit with name and number.</p>
-            <div class="mt-6 flex gap-3">
-                <a href="#" class="px-5 py-3 rounded-xl bg-white text-neutral-900 font-semibold">Shop Jerseys</a>
-                <a href="#" class="px-5 py-3 rounded-xl border border-white/20">Accessories</a>
-            </div>
-        </div>
-        <div class="rounded-3xl overflow-hidden ring-1 ring-white/10 bg-neutral-900/40">
-            <img src="images/shafaq-jersey.png" alt="Shop jersey" class="w-full h-full object-cover" />
-        </div>
-    </div>
-</section>
 
 <!-- Newsletter -->
 <section id="newsletter" class="max-w-7xl mx-auto px-4 py-16">
