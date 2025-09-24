@@ -29,3 +29,4 @@
 2025-08-24 14:30:13	admin	http://localhost/processwire/processwire/setup/field/import/	Installed module 'FieldtypeRepeater'
 2025-08-24 14:30:14	admin	http://localhost/processwire/processwire/setup/field/import/	Installed module 'InputfieldToggle'
 2025-08-24 20:49:08	admin	http://localhost/processwire/processwire/module/	Deleted module 'Helloworld'
+2025-09-08 23:09:29	admin	http://localhost/processwire/processwire/module/	Installed module 'MarkupSEO'

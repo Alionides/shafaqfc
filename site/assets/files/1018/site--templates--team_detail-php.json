@@ -1,0 +1,21 @@
+{
+    "file": "site\/templates\/team_detail.php",
+    "textdomain": "site--templates--team_detail-php",
+    "translations": {
+        "95b3d6ddfbe0f5cef3a01db704cdefe6": {
+            "text": "Ya\u015f"
+        },
+        "79b127f2fe90914102644b9e8a6025c5": {
+            "text": "Milliyy\u0259t"
+        },
+        "efd5274b0079ffb256aff7a508311dfb": {
+            "text": "Boy"
+        },
+        "2b44b37433ae69450717abfad778c743": {
+            "text": "\u00c7\u0259ki"
+        },
+        "026dca64b9ac0c57ba65e89ad8f568a4": {
+            "text": "Bioqrafiya"
+        }
+    }
+}

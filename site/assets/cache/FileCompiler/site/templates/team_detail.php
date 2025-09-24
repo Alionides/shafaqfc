@@ -15,7 +15,7 @@ include_once('layout/header.php');
     <section class="grid lg:grid-cols-2 gap-10 items-center mb-12">
         <!-- Player image -->
         <div class="relative">
-            <img src="<?= $page->image->url ?>" alt="A. Qasimov" class="w-full h-auto rounded-2xl shadow-lg">
+            <img src="<?= $page->image->url ?>" alt="<?= $page->title ?>" class="w-full h-auto rounded-2xl shadow-lg">
             <div class="absolute bottom-4 left-4 bg-shafaq-yellow text-neutral-900 font-bold px-4 py-2 rounded-lg text-lg">
                 #<?= $page->player_number ?>
             </div>
@@ -27,17 +27,17 @@ include_once('layout/header.php');
             <p class="text-xl text-shafaq-yellow font-semibold mb-6"><?= $page->player_position ?></p>
 
             <ul class="grid grid-cols-2 gap-4 text-sm text-white/80">
-                <li><span class="font-bold text-white">Age:</span> <?= $page->player_age ?></li>
-                <li><span class="font-bold text-white">Nationality:</span> <?= $page->player_nationality ?></li>
-                <li><span class="font-bold text-white">Height:</span> <?= $page->player_heght ?> cm</li>
-                <li><span class="font-bold text-white">Weight:</span> <?= $page->player_weight ?> kg</li>
+                <li><span class="font-bold text-white"><?= _x('Age','-') ?>:</span> <?= $page->player_age ?></li>
+                <li><span class="font-bold text-white"><?= _x('Nationality','-') ?>:</span> <?= $page->player_nationality ?></li>
+                <li><span class="font-bold text-white"><?= _x('Height','-') ?>:</span> <?= $page->player_heght ?> <?= _x('sm','-') ?></li>
+                <li><span class="font-bold text-white"><?= _x('Weight','-') ?>:</span> <?= $page->player_weight ?> <?= _x('kg','-') ?></li>
             </ul>
         </div>
     </section>
 
     <!-- Bio / About -->
     <section class="mb-12">
-        <h2 class="text-2xl font-bold mb-4">Player Bio</h2>
+        <h2 class="text-2xl font-bold mb-4"><?= _x('Player Bio','-') ?></h2>
         <p class="text-white/70 leading-relaxed">
             <?= $page->player_about ?>
         </p>

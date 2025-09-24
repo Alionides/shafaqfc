@@ -6,9 +6,9 @@
     <div class="max-w-7xl mx-auto px-4 py-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
         <div>
             <div class="font-extrabold text-lg">Shafaq FC</div>
-            <p class="text-white/60 mt-2">© <span id="yr">2025</span> All rights reserved.</p>
+            <p class="text-white/60 mt-2">© <span id="yr">2025</span> <?= _x('All rights reserved.','-') ?></p>
             <p class="text-white/40 mt-1">
-                Made by
+                <?= _x('Made by','-') ?>
                 <a href="https://create.az" target="_blank" rel="noopener"
                    class="text-shafaq-yellow font-semibold hover:underline">
                     Create Solutions
@@ -36,10 +36,10 @@
         <div>
             <div class="font-semibold mb-3"><?= _x('Contact','-') ?></div>
             <ul class="space-y-2 text-white/70">
-                <li>Email: media@shafaqfc.example</li>
-                <li>Phone: 0554789079</li>
-                <li>Stadium: Shafaq Arena</li>
-                <li>City: Sunrise Bay</li>
+                <li><?= _x('Email','-') ?>: info@shafaq.az</li>
+                <li><?= _x('Phone','-') ?>: 0554789079</li>
+                <li><?= _x('Stadium','-') ?>: Shafaq Arena</li>
+                <li><?= _x('City','-') ?>: Sunrise Bay</li>
             </ul>
         </div>
     </div>

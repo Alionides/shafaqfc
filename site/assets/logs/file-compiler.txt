@@ -5,3 +5,5 @@
 2025-08-25 12:53:12	admin	http://localhost/processwire/processwire/setup/logs/navJSON/	Maintenance/Remove target file: /site/assets/cache/FileCompiler/site/templates/_main.php
 2025-09-03 17:30:22	admin	http://localhost/processwire/processwire/page/	Maintenance/Copy new version of source file to target file: /site/templates/news.php => /site/assets/cache/FileCompiler/site/templates/news.php
 2025-09-03 17:30:22	admin	http://localhost/processwire/processwire/page/	Maintenance/Copy new version of source file to target file: /site/templates/news_detail.php => /site/assets/cache/FileCompiler/site/templates/news_detail.php
+2025-09-08 23:08:26	admin	http://localhost/processwire/processwire/module/?reset=2	Compiled file: /site/modules/MarkupSEO.module
+2025-09-24 17:47:08	guest	http://localhost/processwire/	Maintenance/Copy new version of source file to target file: /site/templates/news.php => /site/assets/cache/FileCompiler/site/templates/news.php

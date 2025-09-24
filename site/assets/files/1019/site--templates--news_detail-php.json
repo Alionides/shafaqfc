@@ -1,0 +1,12 @@
+{
+    "file": "site\/templates\/news_detail.php",
+    "textdomain": "site--templates--news_detail-php",
+    "translations": {
+        "b2eed85250f5b8bf4b8e86bba306b8cd": {
+            "text": "\u041f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0439"
+        },
+        "01afa8872b12e033aab1b05e229602c0": {
+            "text": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439"
+        }
+    }
+}

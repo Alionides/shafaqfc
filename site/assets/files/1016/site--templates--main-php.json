@@ -1,5 +1,39 @@
 {
     "file": "site\/templates\/main.php",
     "textdomain": "site--templates--main-php",
-    "translations": []
+    "translations": {
+        "d7368525ca2eb321a67aaf6c267eb828": {
+            "text": "News"
+        },
+        "c73a9b326cef0c1e0627f29388c171dd": {
+            "text": "View all"
+        },
+        "00b8497776442dcbf40d7e618bf478c1": {
+            "text": "Read more"
+        },
+        "66329aa02b7999165131776416a94ad4": {
+            "text": "Upcoming Fixtures"
+        },
+        "0ebdaa46862be43fa8cc6f525fd96500": {
+            "text": "Date"
+        },
+        "ff6b2c42d3e418f4a2eafc084dcbd7ce": {
+            "text": "Competition"
+        },
+        "9a708e5feddcbc5d906d7ae24eae8e47": {
+            "text": "Match"
+        },
+        "5c2e29729c9a6b06d7892ccce01b1062": {
+            "text": "Stadium"
+        },
+        "ce36c6af31931149cc449e0b53794b37": {
+            "text": "Team"
+        },
+        "85ebd9267d4df2264195cf3d14adc067": {
+            "text": "All Team"
+        },
+        "5ce6ecc5723d40a606b4cd547751e0b5": {
+            "text": "Gallery"
+        }
+    }
 }

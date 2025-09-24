@@ -111,7 +111,6 @@ $newsPage = $pages->get("template=news");
         <a href="<?= $teamPage->url ?>" class="text-shafaq-yellow hover:underline"><?= _x('All Team','-') ?></a>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Player card (repeat as needed) -->
         <?php
         foreach ($teamItem as $item) {
         ?>
@@ -166,21 +165,6 @@ $aboutPage = $pages->get("template=about");
                 <img src="<?= $aboutPage->image->url ?>"/>
             </div>
         </div>
-    </div>
-</section>
-
-
-<!-- Newsletter -->
-<section id="newsletter" class="max-w-7xl mx-auto px-4 py-16">
-    <div class="glass rounded-3xl p-8 ring-1 ring-white/10 grid md:grid-cols-3 gap-6 items-center">
-        <div class="md:col-span-2">
-            <h3 class="font-extrabold text-2xl">Get sunrise updates</h3>
-            <p class="text-white/70 mt-1">News, tickets, and exclusive drops from Shafaq FC, straight to your inbox.</p>
-        </div>
-        <form class="flex gap-2">
-            <input type="email" required placeholder="you@example.com" class="flex-1 px-4 py-3 rounded-xl bg-white/5 ring-1 ring-white/10 placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-shafaq-yellow">
-            <button class="px-4 py-3 rounded-xl bg-shafaq-yellow text-neutral-900 font-semibold">Subscribe</button>
-        </form>
     </div>
 </section>
 <?php include_once('layout/footer.php'); ?>

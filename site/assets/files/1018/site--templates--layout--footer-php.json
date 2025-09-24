@@ -1,0 +1,33 @@
+{
+    "file": "site\/templates\/layout\/footer.php",
+    "textdomain": "site--templates--layout--footer-php",
+    "translations": {
+        "6d2bb3b93e47c927a2b2c966cc881128": {
+            "text": "Menyu"
+        },
+        "75705f03312e0101772b93e5fd5ea5c8": {
+            "text": "Sosial \u015f\u0259b\u0259k\u0259l\u0259r"
+        },
+        "266843719acac96d82d6ff0974b8b7c0": {
+            "text": "\u018flaq\u0259"
+        },
+        "05607936cc6e506a5a552b35c4d838c4": {
+            "text": "B\u00fct\u00fcn h\u00fcquqlar qorunur."
+        },
+        "f3d7d3d7b4240e19510a60a850d3ca85": {
+            "text": "Haz\u0131rlad\u0131"
+        },
+        "a82244d3cc1db48b91a105cdd1a77c04": {
+            "text": "Telefon"
+        },
+        "5c2e29729c9a6b06d7892ccce01b1062": {
+            "text": "Stadion"
+        },
+        "c427ceb5f4a5d17f1353fcd9bd33f5b3": {
+            "text": "\u015e\u0259h\u0259r"
+        },
+        "32e19b780a4196e6167d3c97eded8d1f": {
+            "text": "Elektron po\u00e7t"
+        }
+    }
+}

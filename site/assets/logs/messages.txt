@@ -6,3 +6,5 @@
 2025-08-25 13:01:51	admin	http://localhost/processwire/processwire/setup/field/save?id=121	Deleted field "text" data in 1 row(s) from 1 page(s) using template "repeater_socials". [page-by-page]
 2025-09-05 21:33:21	admin	http://localhost/processwire/processwire/setup/template/removeFields	Deleted field "headline_text" data in 1 row(s) from 1 page(s) using template "about". [page-by-page]
 2025-09-05 22:00:20	admin	http://localhost/processwire/processwire/setup/template/removeFields	Deleted field "text" data in 1 row(s) from 1 page(s) using template "about". [page-by-page]
+2025-09-09 12:33:53	admin	http://localhost/processwire/processwire/page/sort/	Updated sort for 6 pages
+2025-09-09 12:34:00	admin	http://localhost/processwire/processwire/page/sort/	Updated sort for 4 pages
