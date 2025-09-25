@@ -15,3 +15,9 @@
 2025-09-07 20:30:10	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
 2025-09-09 11:11:17	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
 2025-09-24 17:47:45	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-09-25 18:41:42	admin	http://localhost/processwire/processwire/login/	Successful login for 'admin'
+2025-09-25 18:51:26	admin	http://localhost/processwire/adminerrr/login/logout/	Logout for 'admin'
+2025-09-25 18:51:43	admin	http://localhost/processwire/adminerrr/login/	Successful login for 'admin'
+2025-09-25 18:52:26	shafaqfcadmin	http://localhost/processwire/adminerrr/login/logout/	Logout for 'shafaqfcadmin'
+2025-09-25 18:52:35	guest	http://localhost/processwire/adminerrr/login/	Error: Failed login for 'admin' - Unknown user
+2025-09-25 18:52:48	shafaqfcadmin	http://localhost/processwire/adminerrr/login/	Successful login for 'shafaqfcadmin'
