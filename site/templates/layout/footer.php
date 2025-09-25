@@ -45,5 +45,13 @@
     </div>
 </footer>
 
+<script>
+    $(function(){
+        $("#mobile-menu-btn").on("click", function(){
+            $("#mobile-menu").toggleClass("hidden");
+            $(this).find("i").toggleClass("fa-bars fa-xmark");
+        });
+    });
+</script>
 </body>
 </html>

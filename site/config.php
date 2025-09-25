@@ -111,7 +111,7 @@ $config->chmodFile = '0644'; // permission for files created by ProcessWire
  * Installer: Time zone setting
  * 
  */
-$config->timezone = 'UTC';
+$config->timezone = 'Asia/Baku';
 
 /**
  * Installer: Admin theme

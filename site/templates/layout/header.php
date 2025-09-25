@@ -98,12 +98,14 @@ $home = $pages->get('/');
                 <div class="text-white/60 text-xs -mt-0.5"><?= $home->club_slogan ?></div>
             </div>
         </div>
+        <!-- Desktop Nav -->
         <nav class="hidden md:flex items-center gap-6 text-sm">
             <a class="navlink hover:text-shafaq-yellow" href="<?= $home->url ?>"><?= $home->title ?></a>
             <?php foreach ($home->children as $child){ ?>
                 <a class="navlink hover:text-shafaq-yellow" href="<?= $child->url ?>"><?= $child->title ?></a>
             <?php } ?>
         </nav>
+
         <!-- Language Switcher -->
         <div class="flex items-center gap-2">
             <a class="px-3 py-1.5 rounded-lg text-sm font-semibold bg-shafaq-yellow text-neutral-900"><?= $user->language->title ?></a>
@@ -113,6 +115,26 @@ $home = $pages->get('/');
                 <?php } ?>
             <?php } ?>
         </div>
+        <!-- Mobile Hamburger -->
+<!--        <button id="mobile-menu-btn" class="md:hidden text-white hover:text-shafaq-yellow focus:outline-none">-->
+<!--            <i class="fa-solid fa-bars text-2xl"></i>-->
+<!--        </button>-->
 
+        <!-- Mobile Hamburger -->
+        <button id="mobile-menu-btn"
+                class="md:hidden text-white hover:text-shafaq-yellow focus:outline-none w-6 h-6 flex items-center justify-center">
+            <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+
+    </div>
+
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-shafaq-green border-t border-white/10">
+        <nav class="flex flex-col gap-4 px-4 py-4 text-sm">
+            <a class="navlink hover:text-shafaq-yellow" href="<?= $home->url ?>"><?= $home->title ?></a>
+            <?php foreach ($home->children as $child){ ?>
+                <a class="navlink hover:text-shafaq-yellow" href="<?= $child->url ?>"><?= $child->title ?></a>
+            <?php } ?>
+        </nav>
     </div>
 </header>
