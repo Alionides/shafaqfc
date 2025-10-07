@@ -16,9 +16,9 @@ include_once('layout/header.php');
                     ?>
                     <?= $highlighted ?>
                 </h1>
-                <p class="text-lg leading-relaxed mb-4">
-                    <?= $page->headline_text ?>
-                </p>
+                <span class="text-lg leading-relaxed mb-4">
+                    <?= $page->text ?>
+                </span>
             </div>
 
             <!-- Image -->

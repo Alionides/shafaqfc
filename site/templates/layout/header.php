@@ -116,11 +116,6 @@ $home = $pages->get('/');
             <?php } ?>
         </div>
         <!-- Mobile Hamburger -->
-<!--        <button id="mobile-menu-btn" class="md:hidden text-white hover:text-shafaq-yellow focus:outline-none">-->
-<!--            <i class="fa-solid fa-bars text-2xl"></i>-->
-<!--        </button>-->
-
-        <!-- Mobile Hamburger -->
         <button id="mobile-menu-btn"
                 class="md:hidden text-white hover:text-shafaq-yellow focus:outline-none w-6 h-6 flex items-center justify-center">
             <i class="fa-solid fa-bars text-2xl"></i>
